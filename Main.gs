@@ -198,7 +198,6 @@ function callMainAfterMinute(minute, functionName = "mailForwarderMain") {
 function deleteOldTriggers() {
   try{
     for (const trigger of ScriptApp.getProjectTriggers()) {
-      if(trigger.getUniqueId() == "1005351431") continue
       ScriptApp.deleteTrigger(trigger);
     }
     Logger.log("Trigger antigos excluídos com sucesso.");
