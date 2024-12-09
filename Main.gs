@@ -117,7 +117,7 @@ function sendUnreaded() {
             // reencaminha a mensagem
             try{
               if(!message.getFrom().includes(ACTIVE_EMAIL)){
-                message.forward(validatedEmails, {subject: `${STARTSUBJECTTEXT} ${message.getSubject()}`, name: "no-reply DA"});  
+                message.forward(validatedEmails, {subject: `${STARTSUBJECTTEXT} ${message.getSubject()}`, name: EMAILNAME});  
                 message.markRead();
               }
               
