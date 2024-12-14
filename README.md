@@ -22,8 +22,9 @@
 1. Create a new project at Google Apps Script
 2. Copy the Main.gs code to main of project
 3. Changes the constants values  
-4. For more steps, follow the video
+4. For more steps, follow the video (or download it if doesn't work)
 
 
-https://github.com/user-attachments/assets/aba62472-5387-4767-ab76-b62f6455654f
+https://github.com/user-attachments/assets/4118fb9a-f49b-4e9c-a2fe-757fdc6370c6
+
 
